@@ -2,10 +2,10 @@
 > Poll Solarman APIs and send periodic updates to a MQTT broker
 
 # Features
-![Grid supplying power](./docs/images/1.PNG)
-![Battery level](./docs/images/2.PNG)
-![Inverter supplying power and battery power](./docs/images/3.PNG)
-![Low Battery Warning](./docs/images/4.PNG)
+![Grid supplying power](./docs/images/1.PNG | width=100)
+![Battery level](./docs/images/2.PNG | width=100)
+![Inverter supplying power and battery power](./docs/images/3.PNG | width=100)
+![Low Battery Warning](./docs/images/4.PNG | width=100)
 
 - [x] Display battery power as a light sensor
 - [x] Display "Inverter Supply" as a contact sensor (useful for checking if supply is from Inverter or Grid)
