@@ -3,6 +3,7 @@ services:
   solarman-alerts:
     image: rameezk/solarman-mqtt
     restart: "always"
+    network_mode: host
     environment:
       PYTHONUNBUFFERED: 1
       POLL_INTERVAL: 300
