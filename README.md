@@ -25,3 +25,6 @@
 # Limitations
 - The Solarman WiFi loggers only send data every 15 minutes or so (the `POLL_INTERVAL` should be set accordingly)
 - Power values (usually watts) are modelled as a light sensor in HomeKit (in Lux). HomeKit does not support any sensor capable of displaying watts.
+
+# Setup
+See the example `docker-compose.yml` for details.
