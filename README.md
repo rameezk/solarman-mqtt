@@ -1,5 +1,5 @@
 # solarman-mqtt
-> Poll Solarman APIs and send periodic updates to a MQTT broker
+> Poll Solarman APIs and display data in HomeKit via MQTT broker
 
 # Features
 - [x] Display battery power as a light sensor
