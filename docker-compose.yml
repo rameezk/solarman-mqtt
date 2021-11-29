@@ -1,0 +1,15 @@
+version: "3"
+services:
+  solarman-alerts:
+    image: rameezk/solarman-mqtt
+    restart: "always"
+    environment:
+      PYTHONUNBUFFERED: 1
+      POLL_INTERVAL: 300
+      SOLARMAN_USERNAME: ""
+      SOLARMAN_PASSWORD: ""
+      SOLARMAN_DEVICE_ID: ""
+      SOLARMAN_SITE_ID: ""
+      LOW_BATTERY_LEVEL: ""
+      MQTT_BROKER_HOST: ""
+      MQTT_BROKER_PORT: "" # optional (defaults to 1883)
