@@ -12,7 +12,7 @@
 - [homebridge-mqtt plugin](https://github.com/cflurin/homebridge-mqtt)
 
 # Limitations
-- Power values (usually watts) are modelled as a light sensor in HomeKit (in Lux). HomeKit does not support any sensor capable to displaying watts.
+- Power values (usually watts) are modelled as a light sensor in HomeKit (in Lux). HomeKit does not support any sensor capable of displaying watts.
 
 # Features
 - [ ] Display battery power as a light sensor
